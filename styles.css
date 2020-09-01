@@ -40,7 +40,11 @@
 }
 
 
-
+.poster {
+  width: 65%;
+  display: flex;
+  margin: auto;
+}
 
 
 
@@ -83,6 +87,8 @@
   -ms-transition: all 1s ease;
   transition: all 1s ease;
 	z-index:999;
+  background-color: white;
+  border-top: 2px solid black;
 }
 .footer:hover {
 	-webkit-transition: all 1s ease;
